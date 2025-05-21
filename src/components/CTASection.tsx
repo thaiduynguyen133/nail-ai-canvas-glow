@@ -16,17 +16,17 @@ const CTASection = () => {
             
             <div className="relative z-10 max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display text-white mb-6">
-                Ready to Transform Your Nail Salon?
+                Sẵn Sàng Chuyển Đổi Tiệm Nail Của Bạn?
               </h2>
               <p className="text-lg md:text-xl text-white/90 mb-8">
-                Join hundreds of successful nail salons using our AI technology to increase revenue, improve client satisfaction, and streamline operations.
+                Tham gia cùng hàng trăm tiệm nail thành công sử dụng công nghệ AI của chúng tôi để tăng doanh thu, nâng cao sự hài lòng của khách hàng và tối ưu hóa hoạt động.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button className="bg-white text-nail-600 hover:bg-nail-50 py-6 px-8 text-lg">
-                  Schedule a Demo
+                  Đặt Lịch Demo
                 </Button>
                 <Button variant="outline" className="border-2 border-white text-white hover:bg-white/10 py-6 px-8 text-lg">
-                  View Pricing
+                  Xem Bảng Giá
                 </Button>
               </div>
             </div>

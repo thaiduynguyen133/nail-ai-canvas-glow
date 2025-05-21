@@ -25,22 +25,22 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-6">
-              <span className="gradient-text">AI-Powered</span> Solution for Nail Salons
+              <span className="gradient-text">Giải Pháp AI</span> Cho Tiệm Nail
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8">
-              Transform your nail salon with cutting-edge AI technology. Offer virtual try-ons, personalized designs, and streamline your operations with our intelligent solution.
+              Nâng tầm tiệm nail của bạn với công nghệ AI tiên tiến. Cung cấp dịch vụ thử móng ảo, thiết kế cá nhân hóa và tối ưu hóa hoạt động kinh doanh với giải pháp thông minh của chúng tôi.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 className="bg-gradient-to-r from-nail-500 to-purple-500 hover:from-nail-600 hover:to-purple-600 text-white py-6 px-8 text-lg button-glow transform transition-transform hover:scale-105"
               >
-                Request Demo
+                Yêu Cầu Demo
               </Button>
               <Button 
                 variant="outline" 
                 className="border-2 border-nail-400 text-foreground hover:bg-nail-50 py-6 px-8 text-lg transform transition-transform hover:scale-105"
               >
-                Learn More
+                Tìm Hiểu Thêm
               </Button>
             </div>
           </div>

@@ -5,23 +5,23 @@ import { useInView } from 'react-intersection-observer';
 const steps = [
   {
     number: '01',
-    title: 'Capture',
-    description: "Our AI scans and captures the unique shape of each client's nails using your salon's tablet or device."
+    title: 'Chụp',
+    description: "AI của chúng tôi quét và chụp hình dạng móng độc đáo của từng khách hàng bằng máy tính bảng hoặc thiết bị của tiệm nail."
   },
   {
     number: '02',
-    title: 'Design',
-    description: "Clients can browse thousands of designs or create custom looks that the AI will virtually apply to their nails."
+    title: 'Thiết Kế',
+    description: "Khách hàng có thể duyệt hàng nghìn mẫu thiết kế hoặc tạo kiểu dáng tùy chỉnh mà AI sẽ áp dụng ảo lên móng của họ."
   },
   {
     number: '03',
-    title: 'Preview',
-    description: "See the final result in realistic 3D before any work begins, ensuring client satisfaction."
+    title: 'Xem Trước',
+    description: "Xem kết quả cuối cùng trong 3D thực tế trước khi bắt đầu công việc, đảm bảo sự hài lòng của khách hàng."
   },
   {
     number: '04',
-    title: 'Apply',
-    description: "Your nail technicians receive precise design specifications to bring the virtual design to reality."
+    title: 'Áp Dụng',
+    description: "Kỹ thuật viên làm móng của bạn nhận được thông số thiết kế chính xác để biến thiết kế ảo thành hiện thực."
   }
 ];
 
@@ -36,10 +36,10 @@ const HowItWorksSection = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-display mb-4 animate-fade-in">
-            How It Works
+            Cách Thức Hoạt Động
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '100ms' }}>
-            Our seamless process brings AI technology to your nail salon with minimal disruption
+            Quy trình liền mạch của chúng tôi mang công nghệ AI đến tiệm nail của bạn với sự gián đoạn tối thiểu
           </p>
         </div>
 

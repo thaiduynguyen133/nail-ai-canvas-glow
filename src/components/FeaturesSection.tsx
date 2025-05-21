@@ -5,26 +5,26 @@ import { useInView } from 'react-intersection-observer';
 
 const features = [
   {
-    title: 'Virtual Try-On',
-    description: 'Allow clients to virtually try on thousands of nail designs before committing to a style.',
+    title: 'Thử Móng Ảo',
+    description: 'Cho phép khách hàng thử hàng nghìn mẫu móng ảo trước khi lựa chọn phong cách.',
     icon: Camera,
     color: 'from-nail-500 to-nail-300',
   },
   {
-    title: 'Personalized Recommendations',
-    description: 'Our AI analyzes preferences and trends to suggest personalized nail designs for each client.',
+    title: 'Gợi Ý Cá Nhân Hóa',
+    description: 'AI của chúng tôi phân tích sở thích và xu hướng để đề xuất các mẫu móng phù hợp cho từng khách hàng.',
     icon: Heart,
     color: 'from-purple-500 to-purple-300',
   },
   {
-    title: 'Trend Analysis',
-    description: 'Stay ahead of the competition with real-time analysis of nail design trends in your area.',
+    title: 'Phân Tích Xu Hướng',
+    description: 'Luôn dẫn đầu với phân tích thời gian thực về xu hướng thiết kế móng trong khu vực của bạn.',
     icon: Search,
     color: 'from-nail-500 to-purple-400',
   },
   {
-    title: 'Salon Management',
-    description: 'Streamline appointments, inventory, and customer relationships with our integrated management tools.',
+    title: 'Quản Lý Tiệm Nail',
+    description: 'Tối ưu hóa lịch hẹn, kho hàng và mối quan hệ khách hàng với công cụ quản lý tích hợp của chúng tôi.',
     icon: Settings,
     color: 'from-purple-500 to-nail-400',
   },
@@ -58,10 +58,10 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-display mb-4 animate-fade-in">
-            Powerful AI Features
+            Tính Năng AI Mạnh Mẽ
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our technology transforms your salon into a cutting-edge beauty tech destination
+            Công nghệ của chúng tôi biến tiệm nail của bạn thành điểm đến công nghệ làm đẹp hàng đầu
           </p>
         </div>
 

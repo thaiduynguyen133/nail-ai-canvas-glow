@@ -18,11 +18,11 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-foreground hover:text-primary transition">Features</a>
-            <a href="#how-it-works" className="text-foreground hover:text-primary transition">How It Works</a>
-            <a href="#testimonials" className="text-foreground hover:text-primary transition">Testimonials</a>
+            <a href="#features" className="text-foreground hover:text-primary transition">Tính Năng</a>
+            <a href="#how-it-works" className="text-foreground hover:text-primary transition">Cách Hoạt Động</a>
+            <a href="#testimonials" className="text-foreground hover:text-primary transition">Nhận Xét</a>
             <Button className="bg-gradient-to-r from-nail-500 to-purple-500 hover:from-nail-600 hover:to-purple-600 button-glow">
-              Get Started
+              Bắt Đầu Ngay
             </Button>
           </div>
 
@@ -42,11 +42,11 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-background border-b border-border">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <a href="#features" className="text-foreground py-2 px-4 hover:bg-muted rounded-md">Features</a>
-            <a href="#how-it-works" className="text-foreground py-2 px-4 hover:bg-muted rounded-md">How It Works</a>
-            <a href="#testimonials" className="text-foreground py-2 px-4 hover:bg-muted rounded-md">Testimonials</a>
+            <a href="#features" className="text-foreground py-2 px-4 hover:bg-muted rounded-md">Tính Năng</a>
+            <a href="#how-it-works" className="text-foreground py-2 px-4 hover:bg-muted rounded-md">Cách Hoạt Động</a>
+            <a href="#testimonials" className="text-foreground py-2 px-4 hover:bg-muted rounded-md">Nhận Xét</a>
             <Button className="bg-gradient-to-r from-nail-500 to-purple-500 hover:from-nail-600 hover:to-purple-600 w-full button-glow">
-              Get Started
+              Bắt Đầu Ngay
             </Button>
           </div>
         </div>

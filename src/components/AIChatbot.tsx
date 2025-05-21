@@ -21,7 +21,7 @@ type Message = {
 const initialMessages: Message[] = [
   {
     id: 1,
-    text: "Hi there! I'm your NailAI assistant. How can I help you today?",
+    text: "Xin chào! Tôi là trợ lý NailAI. Tôi có thể giúp gì cho bạn hôm nay?",
     sender: 'bot',
     timestamp: new Date(),
   },
@@ -51,11 +51,11 @@ const AIChatbot = () => {
     // Simulate AI response (would connect to a real API in production)
     setTimeout(() => {
       const responses = [
-        "That's a great question about our NailAI technology!",
-        "I can help you book a demo with our team to see NailAI in action.",
-        "Our AI solution works with most existing nail salon setups.",
-        "NailAI can increase your salon's revenue by up to 30% through personalized recommendations.",
-        "The virtual try-on feature helps reduce customer dissatisfaction by showing designs before application."
+        "Đó là một câu hỏi hay về công nghệ NailAI của chúng tôi!",
+        "Tôi có thể giúp bạn đặt lịch demo với đội ngũ của chúng tôi để xem NailAI hoạt động.",
+        "Giải pháp AI của chúng tôi hoạt động với hầu hết các cài đặt tiệm nail hiện có.",
+        "NailAI có thể tăng doanh thu của tiệm nail của bạn lên đến 30% thông qua các đề xuất cá nhân hóa.",
+        "Tính năng thử móng ảo giúp giảm sự không hài lòng của khách hàng bằng cách hiển thị thiết kế trước khi áp dụng."
       ];
       
       const botMessage: Message = {
@@ -94,7 +94,7 @@ const AIChatbot = () => {
           <DialogHeader className="p-4 border-b">
             <DialogTitle className="flex items-center">
               <Bot className="mr-2" />
-              NailAI Assistant
+              Trợ Lý NailAI
             </DialogTitle>
           </DialogHeader>
           
@@ -144,7 +144,7 @@ const AIChatbot = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Type your message..."
+              placeholder="Nhập tin nhắn của bạn..."
               className="flex-1"
             />
             <Button onClick={handleSend} disabled={!input.trim() || isLoading}>

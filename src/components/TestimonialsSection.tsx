@@ -3,21 +3,21 @@ import React from 'react';
 
 const testimonials = [
   {
-    quote: "Our clients absolutely love the virtual try-on feature. It's increased our upsells by 40% in just three months!",
+    quote: "Khách hàng của chúng tôi hoàn toàn yêu thích tính năng thử móng ảo. Nó đã tăng doanh số bán hàng thêm của chúng tôi lên 40% chỉ trong ba tháng!",
     author: "Jessica Chen",
-    role: "Owner, Gloss Nail Studio",
+    role: "Chủ Sở Hữu, Gloss Nail Studio",
     image: "https://i.pravatar.cc/150?img=32"
   },
   {
-    quote: "The AI recommendations have completely transformed how we approach design consultations. Our clients feel more confident in their choices.",
+    quote: "Các đề xuất AI đã hoàn toàn thay đổi cách chúng tôi tiếp cận tư vấn thiết kế. Khách hàng cảm thấy tự tin hơn với lựa chọn của họ.",
     author: "Michael Rodriguez",
-    role: "Manager, Elite Nails",
+    role: "Quản Lý, Elite Nails",
     image: "https://i.pravatar.cc/150?img=11"
   },
   {
-    quote: "We've seen a 30% increase in new clients since implementing NailAI. The word-of-mouth marketing has been incredible.",
+    quote: "Chúng tôi đã thấy số lượng khách hàng mới tăng 30% kể từ khi triển khai NailAI. Việc tiếp thị truyền miệng đã thực sự đáng kinh ngạc.",
     author: "Sarah Johnson",
-    role: "Owner, Polished Perfection",
+    role: "Chủ Sở Hữu, Polished Perfection",
     image: "https://i.pravatar.cc/150?img=5"
   }
 ];
@@ -27,9 +27,9 @@ const TestimonialsSection = () => {
     <section id="testimonials" className="py-16 md:py-24 bg-gradient-to-br from-purple-50 to-nail-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">What Salon Owners Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">Chủ Tiệm Nail Nói Gì</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it - hear from salon owners who've transformed their business
+            Đừng chỉ tin vào lời chúng tôi - hãy nghe từ các chủ tiệm nail đã chuyển đổi doanh nghiệp của họ
           </p>
         </div>
 
