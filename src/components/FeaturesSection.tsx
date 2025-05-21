@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Camera, Heart, Search, Settings } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 
@@ -48,7 +48,7 @@ const FeatureCard = ({ feature, index, inView }) => {
 };
 
 const FeaturesSection = () => {
-  const [ref, inView] = useInView({
+  const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.1,
   });
