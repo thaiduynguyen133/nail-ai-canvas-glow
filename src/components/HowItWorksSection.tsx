@@ -5,22 +5,22 @@ const steps = [
   {
     number: '01',
     title: 'Capture',
-    description: 'Our AI scans and captures the unique shape of each client's nails using your salon's tablet or device.'
+    description: "Our AI scans and captures the unique shape of each client's nails using your salon's tablet or device."
   },
   {
     number: '02',
     title: 'Design',
-    description: 'Clients can browse thousands of designs or create custom looks that the AI will virtually apply to their nails.'
+    description: "Clients can browse thousands of designs or create custom looks that the AI will virtually apply to their nails."
   },
   {
     number: '03',
     title: 'Preview',
-    description: 'See the final result in realistic 3D before any work begins, ensuring client satisfaction.'
+    description: "See the final result in realistic 3D before any work begins, ensuring client satisfaction."
   },
   {
     number: '04',
     title: 'Apply',
-    description: 'Your nail technicians receive precise design specifications to bring the virtual design to reality.'
+    description: "Your nail technicians receive precise design specifications to bring the virtual design to reality."
   }
 ];
 
