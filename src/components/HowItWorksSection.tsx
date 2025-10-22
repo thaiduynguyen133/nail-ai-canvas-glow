@@ -45,7 +45,7 @@ const HowItWorksSection = () => {
 
         <div className="relative" ref={ref}>
           {/* Connecting line */}
-          <div className={`hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-nail-200 via-purple-300 to-nail-200 transform -translate-y-1/2 z-0 transition-all duration-1000 ${inView ? 'w-full opacity-100' : 'w-0 opacity-0'}`}></div>
+          <div className={`hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary/20 via-secondary/40 to-primary/20 rounded-full transform -translate-y-1/2 z-0 transition-all duration-1000 ${inView ? 'w-full opacity-100' : 'w-0 opacity-0'}`}></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
             {steps.map((step, index) => (
@@ -56,11 +56,11 @@ const HowItWorksSection = () => {
                 }`} 
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-nail-500 to-purple-500 flex items-center justify-center text-white text-xl font-bold mb-6 shadow-lg transition-transform hover:scale-110">
+                <div className="w-20 h-20 rounded-3xl glass-strong bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-xl font-bold mb-6 shadow-xl transition-all hover:scale-110 hover:shadow-2xl">
                   {step.number}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-                <p className="text-muted-foreground">{step.description}</p>
+                <p className="text-muted-foreground leading-relaxed">{step.description}</p>
               </div>
             ))}
           </div>

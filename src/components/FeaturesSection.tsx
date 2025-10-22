@@ -33,16 +33,16 @@ const features = [
 const FeatureCard = ({ feature, index, inView }) => {
   return (
     <div 
-      className={`bg-background rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-500 transform ${
+      className={`glass rounded-2xl p-6 hover:glass-strong transition-all duration-500 transform ${
         inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       style={{ transitionDelay: `${index * 150}ms` }}
     >
-      <div className={`w-12 h-12 rounded-lg bg-gradient-to-br ${feature.color} flex items-center justify-center mb-6 transform transition-transform hover:scale-110`}>
+      <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${feature.color} flex items-center justify-center mb-6 transform transition-transform hover:scale-110 shadow-lg`}>
         <feature.icon className="text-white" size={24} />
       </div>
       <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-      <p className="text-muted-foreground">{feature.description}</p>
+      <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
     </div>
   );
 };
@@ -54,8 +54,9 @@ const FeaturesSection = () => {
   });
 
   return (
-    <section id="features" className="py-16 md:py-24 bg-muted">
-      <div className="container mx-auto px-4 md:px-6">
+    <section id="features" className="py-16 md:py-24 relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-muted/30 to-transparent"></div>
+      <div className="container mx-auto px-4 md:px-6 relative">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-display mb-4 animate-fade-in">
             Tính Năng AI Mạnh Mẽ

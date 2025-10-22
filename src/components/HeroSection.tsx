@@ -32,34 +32,33 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
-                className="bg-gradient-to-r from-nail-500 to-purple-500 hover:from-nail-600 hover:to-purple-600 text-white py-6 px-8 text-lg button-glow transform transition-transform hover:scale-105"
+                className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-primary-foreground py-6 px-8 text-lg button-glow rounded-full"
               >
                 Yêu Cầu Demo
               </Button>
               <Button 
-                variant="outline" 
-                className="border-2 border-nail-400 text-foreground hover:bg-nail-50 py-6 px-8 text-lg transform transition-transform hover:scale-105"
+                className="glass-subtle py-6 px-8 text-lg rounded-full border-0 hover:glass"
               >
                 Tìm Hiểu Thêm
               </Button>
             </div>
           </div>
           <div className={`relative transition-all duration-1000 delay-300 transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <div className="absolute -top-10 -left-10 w-40 h-40 bg-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-nail-400/20 rounded-full blur-3xl animate-pulse"></div>
-            <div className="relative bg-gradient-to-br from-purple-100 to-nail-100 p-4 rounded-2xl shadow-xl">
-              <div className="bg-white rounded-xl overflow-hidden">
+            <div className="absolute -top-10 -left-10 w-40 h-40 bg-gradient-to-br from-secondary/30 to-primary/30 rounded-full blur-3xl animate-pulse-gentle"></div>
+            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-gradient-to-br from-primary/30 to-secondary/30 rounded-full blur-3xl animate-pulse-gentle"></div>
+            <div className="relative glass-strong p-6 rounded-3xl">
+              <div className="glass rounded-2xl overflow-hidden">
                 <div className="aspect-video relative overflow-hidden">
                   <NailModel3D color={currentColor} className="absolute inset-0" />
                 </div>
-                <div className="p-4">
+                <div className="p-4 glass-subtle">
                   <div className="flex items-center justify-between mb-2">
-                    <div className="h-3 w-24 bg-nail-200 rounded-full animate-pulse"></div>
-                    <div className="h-3 w-12 bg-purple-200 rounded-full animate-pulse"></div>
+                    <div className="h-3 w-24 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-full animate-pulse-gentle"></div>
+                    <div className="h-3 w-12 bg-gradient-to-r from-secondary/30 to-primary/30 rounded-full animate-pulse-gentle"></div>
                   </div>
                   <div className="grid grid-cols-4 gap-2">
                     {[1, 2, 3, 4].map((item) => (
-                      <div key={item} className="aspect-square rounded-lg bg-gradient-to-br from-nail-200 to-purple-200 transition-all hover:scale-105"></div>
+                      <div key={item} className="aspect-square rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 glass-subtle transition-all hover:scale-105 hover:glass"></div>
                     ))}
                   </div>
                 </div>
