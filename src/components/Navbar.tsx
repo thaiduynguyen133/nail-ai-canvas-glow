@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-50 glass">
+    <nav className="fixed top-0 w-full z-50 glass-ultra border-b border-border/5">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center space-x-2">
@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden glass-strong border-t border-border/50">
+        <div className="md:hidden glass border-t border-border/10">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a href="#features" className="text-foreground py-2 px-4 hover:glass-subtle rounded-xl transition-all">Tính Năng</a>
             <a href="#how-it-works" className="text-foreground py-2 px-4 hover:glass-subtle rounded-xl transition-all">Cách Hoạt Động</a>

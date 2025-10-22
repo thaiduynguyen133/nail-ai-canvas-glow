@@ -33,7 +33,7 @@ const features = [
 const FeatureCard = ({ feature, index, inView }) => {
   return (
     <div 
-      className={`glass rounded-2xl p-6 hover:glass-strong transition-all duration-500 transform ${
+      className={`glass border border-border/5 rounded-3xl p-8 hover:glass-strong transition-all duration-500 transform hover:scale-105 ${
         inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
       style={{ transitionDelay: `${index * 150}ms` }}

@@ -36,7 +36,7 @@ const TestimonialsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="glass rounded-2xl p-8 hover:glass-strong transition-all duration-500">
+            <div key={index} className="glass border border-border/5 rounded-3xl p-8 hover:glass-strong transition-all duration-500 hover:scale-105">
               <div className="flex flex-col h-full">
                 <div className="mb-6 flex-grow">
                   <svg className="h-10 w-10 text-primary" fill="currentColor" viewBox="0 0 32 32">

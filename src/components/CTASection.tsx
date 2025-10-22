@@ -13,7 +13,7 @@ const CTASection = () => {
             <div className="absolute bottom-10 right-10 w-60 h-60 rounded-full bg-white/10 blur-3xl animate-pulse-gentle"></div>
           </div>
           
-          <div className="glass-subtle p-8 md:p-12 lg:p-16 relative">            
+          <div className="glass p-8 md:p-12 lg:p-16 relative border border-white/10">            
             <div className="relative z-10 max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display text-white mb-6">
                 Sẵn Sàng Chuyển Đổi Tiệm Nail Của Bạn?

@@ -91,29 +91,41 @@
 }
 
 @layer utilities {
-  /* Glass effect utilities */
+  /* Liquid Glass effect utilities - Apple style */
   .glass {
-    background: hsla(var(--glass-bg) / 0.7);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid hsla(var(--glass-border) / 0.18);
-    box-shadow: 0 8px 32px 0 hsla(var(--glass-shadow) / 0.1);
+    background: hsla(var(--glass-bg) / 0.3);
+    backdrop-filter: blur(60px) saturate(180%) brightness(110%);
+    -webkit-backdrop-filter: blur(60px) saturate(180%) brightness(110%);
+    border: 1px solid hsla(var(--glass-border) / 0.1);
+    box-shadow: 0 8px 32px 0 hsla(var(--glass-shadow) / 0.06),
+                inset 0 1px 0 0 hsla(var(--glass-border) / 0.15);
   }
   
   .glass-strong {
-    background: hsla(var(--glass-bg) / 0.85);
-    backdrop-filter: blur(30px) saturate(200%);
-    -webkit-backdrop-filter: blur(30px) saturate(200%);
-    border: 1px solid hsla(var(--glass-border) / 0.25);
-    box-shadow: 0 8px 32px 0 hsla(var(--glass-shadow) / 0.15);
+    background: hsla(var(--glass-bg) / 0.5);
+    backdrop-filter: blur(80px) saturate(200%) brightness(110%);
+    -webkit-backdrop-filter: blur(80px) saturate(200%) brightness(110%);
+    border: 1px solid hsla(var(--glass-border) / 0.15);
+    box-shadow: 0 12px 40px 0 hsla(var(--glass-shadow) / 0.08),
+                inset 0 1px 0 0 hsla(var(--glass-border) / 0.2);
   }
   
   .glass-subtle {
-    background: hsla(var(--glass-bg) / 0.5);
-    backdrop-filter: blur(12px) saturate(150%);
-    -webkit-backdrop-filter: blur(12px) saturate(150%);
-    border: 1px solid hsla(var(--glass-border) / 0.12);
-    box-shadow: 0 4px 16px 0 hsla(var(--glass-shadow) / 0.08);
+    background: hsla(var(--glass-bg) / 0.2);
+    backdrop-filter: blur(40px) saturate(150%) brightness(105%);
+    -webkit-backdrop-filter: blur(40px) saturate(150%) brightness(105%);
+    border: 1px solid hsla(var(--glass-border) / 0.08);
+    box-shadow: 0 4px 20px 0 hsla(var(--glass-shadow) / 0.04),
+                inset 0 1px 0 0 hsla(var(--glass-border) / 0.1);
+  }
+  
+  .glass-ultra {
+    background: hsla(var(--glass-bg) / 0.15);
+    backdrop-filter: blur(100px) saturate(200%) brightness(115%);
+    -webkit-backdrop-filter: blur(100px) saturate(200%) brightness(115%);
+    border: 1px solid hsla(var(--glass-border) / 0.06);
+    box-shadow: 0 16px 48px 0 hsla(var(--glass-shadow) / 0.1),
+                inset 0 1px 0 0 hsla(var(--glass-border) / 0.12);
   }
 }
 

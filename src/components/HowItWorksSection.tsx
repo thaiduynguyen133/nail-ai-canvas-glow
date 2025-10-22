@@ -56,7 +56,7 @@ const HowItWorksSection = () => {
                 }`} 
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
-                <div className="w-20 h-20 rounded-3xl glass-strong bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-xl font-bold mb-6 shadow-xl transition-all hover:scale-110 hover:shadow-2xl">
+                <div className="w-20 h-20 rounded-3xl glass bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-xl font-bold mb-6 shadow-xl transition-all hover:scale-110 hover:shadow-2xl border border-white/20">
                   {step.number}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{step.title}</h3>
